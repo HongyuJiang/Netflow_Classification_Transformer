@@ -8,6 +8,9 @@
 
 [代码地址](https://github.com/HongyuJiang/Netflow_Classification_Transformer/blob/main/IDS_Flow_Class.ipynb)
 
+[数据集-P1](https://drive.google.com/file/d/11HhPzTeQ29bc1_vvx4KO7-C5_HSfNmS-/view?usp=sharing)
+[数据集-P2](https://drive.google.com/file/d/1PUxq76ZcTjONJLrlP6vbgUDW9mIg6YFV/view?usp=sharing)
+
 
 > 关键词：网络流量；序列建模；异常识别
 
