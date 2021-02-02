@@ -42,7 +42,7 @@
 ### 模型建立
 
 
-<img style='float:right;' src="./net_struct.png" width = "340" alt="图片名称" align=center />
+<img style='float:right;' src="./net_struct.png" width = "440" alt="图片名称" align=center />
 
 本工作旨在从流量序列发现异常流量。当前前沿工作发现Transformer对于序列数据具有优秀的特征提取能力，本工作提出基于Transformer的流量序列分类网络架构。该网络结构如右图所示，首先对原始流数据按照时间顺序进行组合，得到流序列。接着使用Transformer结构对流量序列的特征进行提取。在得到特征张量之后，使用一个卷积+池化层对特征进行降维处理。在最后使用一个全连接层对得到的特征进行分类。超参数设置：Transformer共包含3层，Transformer中前馈网络模型的维度大小为1024，注意力头大小为3。卷积层的卷积核大小为[3,4,5]，卷积核的数量为100个。此外，训练使用Adam优化器，学习率设置为0.001。
 
